@@ -1,13 +1,11 @@
 require([
 
-	// Libs
-	"bootstrap",
-	"use!backbone",
+  // Libs
+  "bootstrap",
+  "use!backbone",
 ],
 
 function($, Backbone) {
 	
 
 });
-
-
