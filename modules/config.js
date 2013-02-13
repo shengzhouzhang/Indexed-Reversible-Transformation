@@ -5,35 +5,19 @@ require.config({
   paths: {
 
     // Libraries
-    jquery: "../libs/jquery",
-    underscore: "../libs/underscore-min",
-    backbone: "../libs/backbone-min",
+    jquery: "../libs/jquery.min",
+    underscore: "../libs/underscore.min",
     bootstrap: "../libs/bootstrap/js/bootstrap.min",
     
     //Modules
-    
-    
-    // Plugins
-    ace: "../libs/ace/ace",
-
-    // Shim Plugin
-    use: "../libs/use",
+    IRT: "IRT/IRT",
 
   },
-  
-  bootstrap: {
-	  deps: ["jquery"],
-      attach: "$"
-  },
 
-  use: {
-    backbone: {
-      deps: ["use!underscore", "jquery"],
-      attach: "Backbone"
-    },
-
-    underscore: {
-      attach: "_"
-    }
-  }
+	shim: {
+		  'bootstrap': {
+			  deps: ["jquery"],
+			  exports: '$'
+		  }
+	}
 });
