@@ -1,3 +1,5 @@
-# Backbone Modules Boilerplate
+# Indexed Reversible Transformatiom (IRT) JavaScript Module
 
-This is a backbone template for building rebust and scalable application with small unit testing components.
+This is a simple javascript libiray for IRT.
+
+demo : http://szha246.github.com/irt-demo/
