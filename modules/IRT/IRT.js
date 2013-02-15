@@ -75,8 +75,16 @@ function($, Backbone) {
 				  
 			  }while(ac === bc)
 		  });
+
+
 		  
-		  return first_N.concat(rest);
+var result = first_N.concat(rest);
+
+for(var i = 0; i < result.length; i++) {
+print(JSON.stringify(result[i]));
+}
+
+return result;
 	  }
 	  
 	  // get the first column.
