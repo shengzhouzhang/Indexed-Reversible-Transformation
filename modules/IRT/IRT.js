@@ -19,6 +19,8 @@ function($, Backbone) {
 	  
 	  print("----  " + JSON.stringify(inputString) + "  ----");
 	  
+	  print("Construction...");
+	  
 	  // a list object to store rotates.
 	  var temp = [inputString];
 	  
@@ -224,6 +226,9 @@ return result;
 		  
 		  if(track.length - 1 !== word.length)
 			  return;
+			  
+			   // print positions
+       print(JSON.stringify(track, null, ""));
 		  
 		  // create a new first and last column without removed word
 		  for(var i = 0; i < first.length; i++) {
@@ -274,6 +279,10 @@ return result;
 		  }
 		  
 		  // after this, we have find all positions
+		  
+		  // print positions
+       print(JSON.stringify(track, null, ""));
+
 		  
 		  var done  = [];
 		  var offset;
