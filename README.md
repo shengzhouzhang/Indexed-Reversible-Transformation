@@ -2,7 +2,7 @@
 
 This is a simple javascript demo for IRT.
 
-demo : http://szha246.github.com/irt-demo/
+demo : http://szha246.github.com/Indexed-Reversible-Transformation/
 
 For a given string, IRT transfers it with FM mapping rule, like BWT does. 
 
