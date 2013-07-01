@@ -1,4 +1,4 @@
-# Indexed Reversible Transformatiom (IRT)
+# Indexed Reversible Transformation (IRT)
 
 This is a simple javascript demo for IRT.
 
